@@ -16,6 +16,9 @@
     <Filter Include="FrameWork">
       <UniqueIdentifier>{0adf42eb-13c4-4fd5-8e1f-d60320fbb500}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{874496fe-ae1e-41ca-9839-99f6916dc558}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -31,6 +34,12 @@
       <Filter>FrameWork</Filter>
     </ClCompile>
     <ClCompile Include="D3DApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
       <Filter>FrameWork</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,6 +65,12 @@
     <ClInclude Include="D3DUtility.h">
       <Filter>FrameWork</Filter>
     </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="3D_Demo.rc">
@@ -66,5 +81,10 @@
     <Image Include="Snake.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FX\color.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

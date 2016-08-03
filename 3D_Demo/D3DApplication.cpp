@@ -161,7 +161,7 @@ void D3DApplication::OnResize()
 #pragma region Set the Viewport
 	mScreenViewport.TopLeftX = 0;
 	mScreenViewport.TopLeftY = 0;
-	mScreenViewport.Width	 = (float)mClientHeight;
+	mScreenViewport.Width	 = (float)mClientWidth;
 	mScreenViewport.Height	 = (float)mClientHeight;
 	mScreenViewport.MinDepth = 0.0f;
 	mScreenViewport.MaxDepth = 1.0f;
