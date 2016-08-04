@@ -42,6 +42,9 @@
     <ClCompile Include="MathHelper.cpp">
       <Filter>FrameWork</Filter>
     </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MathHelper.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
       <Filter>FrameWork</Filter>
     </ClInclude>
   </ItemGroup>
