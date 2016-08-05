@@ -6,6 +6,7 @@
 #include "dxerr.h"
 #include "MathHelper.h"
 #include <cassert>
+#include <vector>
 
 // Simple error checker for debugging. 
 #if defined(DEBUG) || defined(_DEBUG)

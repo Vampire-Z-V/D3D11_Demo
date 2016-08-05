@@ -1,5 +1,8 @@
-﻿  Box.cpp
-c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\crtdbg.h(302): warning C4005: '_malloca': macro redefinition
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\malloc.h(120): note: see previous definition of '_malloca'
+﻿  WinMain.cpp
+  GeometryGenerator.cpp
+  D3DApplication.cpp
+  Box.cpp
+  Generating Code...
+  LINK : C:\Users\84682\Documents\Visual Studio 2015\Projects\3D_Demo\Debug\3D_Demo.exe not found or not built by the last incremental link; performing full link
   3D_Demo.vcxproj -> C:\Users\84682\Documents\Visual Studio 2015\Projects\3D_Demo\Debug\3D_Demo.exe
   3D_Demo.vcxproj -> C:\Users\84682\Documents\Visual Studio 2015\Projects\3D_Demo\Debug\3D_Demo.pdb (Full PDB)
