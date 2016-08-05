@@ -90,12 +90,12 @@
 //	return 0;
 //}
 
-#include "Box.h"
+#include "Geosphere.h"
 #include <Windows.h>
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-	Box box(hInstance);
+	Geosphere box(hInstance);
 	if (!box.Init())
 	{
 		return 0;
