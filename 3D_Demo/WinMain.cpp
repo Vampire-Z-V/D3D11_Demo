@@ -91,11 +91,13 @@
 //}
 
 #include "Geosphere.h"
+#include "Shape.h"
 #include <Windows.h>
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-	Geosphere box(hInstance);
+	Shape box(hInstance);
+	//Geosphere box(hInstance);
 	if (!box.Init())
 	{
 		return 0;

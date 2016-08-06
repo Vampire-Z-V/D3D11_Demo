@@ -152,6 +152,7 @@
     <ClCompile Include="GeometryGenerator.cpp" />
     <ClCompile Include="Geosphere.cpp" />
     <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +167,7 @@
     <ClInclude Include="Geosphere.h" />
     <ClInclude Include="MathHelper.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Shape.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="3D_Demo.rc" />

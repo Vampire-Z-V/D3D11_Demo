@@ -158,6 +158,8 @@ void Geosphere::BuildGeometryBuffers()
 	GeometryGenerator::MeshData geosphere;
 
 	GeometryGenerator geoGen;
+	//geoGen.CreateGrid(20.0f, 30.0f, 60, 40, geosphere);
+	//geoGen.CreateCylinder(0.5f, 0.2f, 3.0f, 20, 20, geosphere);
 	geoGen.CreateGeosphere(1.0f, 3, geosphere);
 	//geoGen.CreateSphere(1.0f, 30, 30, geosphere);
 
